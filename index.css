@@ -1,0 +1,139 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.bg {
+    position: relative;
+    background: url(img/birdeyeview.jpg) no-repeat center center;
+    background-size: 1324px 1000px;
+    width: 1324px;
+    height: 800px;
+    left: 50%;
+    margin-left: -662px;
+    background-position: 0 -174px;
+}
+
+.cover {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.old {
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-size: x-large;
+    margin-top: 4%;
+    color: black;
+}
+
+.now {
+    text-align: center;
+    width: 50%;
+    /*float:right;*/
+    position: absolute;
+    font-size: x-large;
+    margin-top: 4%;
+    color: white;
+    margin-left: 50%;
+}
+
+.pollute {
+    position: absolute;
+    bottom: 0;
+    with: 50%;
+    height: 25%;
+}
+
+.clean .tree {
+    font-size: 42px;
+    line-height: 100px;
+    margin: 10px 0;
+    color: #13c513;
+    width: 100px;
+    float: left;
+}
+
+.clean {
+    bottom: 0;
+    height: 25%;
+    position: absolute;
+}
+
+.pollute {
+    bottom: 0;
+    height: 25%;
+    margin-left: 50%;
+    position: absolute;
+    /*display: none;*/
+}
+.betternow{
+    bottom: 0;
+    height: 25%;
+    margin-left: 50%;
+    position: absolute;
+    width:50%;
+    display: none;
+}
+
+.pollute .dirt {
+    font-size: 42px;
+    line-height: 100px;
+    margin: 10px 0;
+    color: white;
+    width: 100px;
+    float: left;
+}
+.betternow .bnow{
+    font-size: 42px;
+    line-height: 100px;
+    margin: 10px 0;
+    color: white;
+    width: 100px;
+    float: left;
+}
+
+.bg .tools  {
+    position: absolute;
+    width:200px;
+    height: 500px;
+    left:50%;
+    margin-left:-100px;
+    margin-top: 20px;
+}
+.bg .tools .leaf {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    background-color: green;
+    font-size:150px;
+    text-align: center;
+    line-height: 150px;
+    color:#fff;
+}
+.bg .tools .pm2 {
+    margin-top: 4%;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    background-color: #fff;
+    color:#000;
+    font-size:150px;
+    text-align: center;
+    line-height: 150px;
+    display: none;
+}
+
+@-webkit-keyframes bounceIn{0%{opacity:0;-webkit-transform:scale(.3);transform:scale(.3)}50%{opacity:1;-webkit-transform:scale(1.05);transform:scale(1.05)}70%{-webkit-transform:scale(.9);transform:scale(.9)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}@keyframes bounceIn{0%{opacity:0;-webkit-transform:scale(.3);-ms-transform:scale(.3);transform:scale(.3)}50%{opacity:1;-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05)}70%{-webkit-transform:scale(.9);-ms-transform:scale(.9);transform:scale(.9)}100%{opacity:1;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}}.bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn}
+
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}
